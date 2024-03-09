@@ -1,0 +1,97 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+}
+
+header {
+ background-color: #333;
+ color: white;
+ padding: 1rem;
+ text-align: center;
+}
+
+nav ul {
+ background-color: #333;
+ display: flex;
+ justify-content: space-around;
+ list-style-type: none;
+ padding: 1rem;
+}
+
+nav ul a {
+ color: white;
+ text-decoration: none;
+}
+
+main {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ padding: 2rem;
+}
+
+section#hero {
+ background-color: #f4f4f4;
+ border: 1px solid #ddd;
+ flex-basis: 30%;
+ margin-bottom: 2rem;
+ padding: 2rem;
+ text-align: center;
+}
+
+section#hero h2 {
+ font-size: 2rem;
+ margin-bottom: 1rem;
+}
+
+section#hero p {
+ color: #777;
+ font-size: 1.2rem;
+ margin-bottom: 2rem;
+}
+
+section#hero button {
+ background-color: #333;
+ border: none;
+ color: white;
+ padding: 0.5rem 2rem;
+ text-decoration: none;
+}
+
+section#products {
+ flex-basis: 70%;
+}
+
+section#products ul {
+ display: flex;
+ flex-wrap: wrap;
+ list-style-type: none;
+}
+
+section#products ul li {
+ background-color: #f4f4f4;
+ border: 1px solid #ddd;
+ flex-basis: calc(33.33% - 2rem);
+ margin: 1rem;
+ }
+
+/* Add the following code at the end of the styles.css file */
+
+section#footer {
+ background-color: #333;
+ color: white;
+ padding: 1rem;
+ text-align: center;
+}
+
+section#footer a {
+ color: white;
+ text-decoration: none;
+ margin: 0 0.5rem;
+}
